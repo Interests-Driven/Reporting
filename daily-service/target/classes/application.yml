@@ -1,0 +1,13 @@
+server:
+  port: 5003
+---
+spring:
+  application:
+    name: daily-service
+  profiles:
+    active: dev
+#  datasource:
+#    url: jdbc:oracle:thin:@//10.211.55.6:1521/orclpdb
+#    username: aron
+#    password: aron
+#    driver-class-name: oracle.jdbc.driver.OracleDriver
